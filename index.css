@@ -1,0 +1,168 @@
+.tyu{
+width:100%;
+height: fit-content;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.hem{
+    margin-top: -30px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+.ty{
+    
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+.huy{
+    color: white;
+    
+}
+.fgr{
+    width: 20%;
+    height: 150px;
+}
+@media (max-width:678px) {
+   .tyu{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+   }
+   .uyy{
+    margin-top: 20px;
+}
+
+   .ui{
+    margin-right: -30px;
+    margin-top: 40px;
+        }
+.fgr{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 75%; 
+    height: 150px;
+}
+
+}
+@media (max-width:594px) {
+    .huy{
+       font-size: 14px;
+    }
+    .uyy{
+        margin-top: 20px;
+    }
+    
+    .ui{
+        margin-right: -30px;
+        margin-top: 40px;
+            }
+}
+@media (max-width:438px) {
+    .huy{
+        font-size: 13px;
+    }
+    .uyy{
+        margin-top: 20px;
+    }
+    
+    .ui{
+margin-right: -30px;
+margin-top: 40px;
+    }
+}
+.po{
+    color: white;
+}
+.dr{
+    width: 100%;
+    height: 150px;
+}
+body{
+    background-image: url('https://imgs.search.brave.com/KjyalLL76vCmHC21vhzk3F60VSE9Ag8akTMfgHEcC5M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk1Lzgx/LzEyLzk1ODExMjNm/MmVkNmYyZDcwNWFm/NjI4NmFhMTE4Nzgx/LmpwZw');
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height:100%;
+}
+.van{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+.nht{
+    height: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rt{
+    display: none;
+   }
+.ty{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.dfi{
+    width: 100%;
+}
+.qw{
+    width: 40px;
+    height: 40px;
+}
+.rr{
+    margin-top: 50px;
+}
+@media (max-width:1072px) {
+    
+
+.checkbtn{
+    display: block;
+    
+}
+.q1{
+    position: fixed; 
+    width: 100%;
+    height: 50px;
+    background: #4e9df880;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    color: white;
+    }
+#check:checked~.q1{
+    left:0;
+}
+.ty{
+    display: block;
+}
+}
+
